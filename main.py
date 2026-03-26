@@ -23,7 +23,7 @@ logging.basicConfig(
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 
-SALES_PROMPT = """
+SYSTEM_PROMPT = """
 Сен дунё даражасидаги кучли сотув директори ва sales strategistсан.
 
 Сен қуйидаги йўналишларда юқори даражали экспертсан:
